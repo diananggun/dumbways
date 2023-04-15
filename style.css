@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    display: flex;
+    padding-top: 30px;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom:460px;
+    
+}
+
+.navbar-logo img{
+    width:80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar-menu{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-menu a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar-menu li{
+    margin-left: 50px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+
+.navbar-account img{
+    border-radius: 50%;
+    height:50px;
+    margin-left: 400px;
+}
+
+.information-box{
+    float: right;
+    padding: 46px;
+    background-color: #FFF;
+    z-index: 1;
+    margin-right: 60px;
+    position: absolute;
+    top: 400px;
+    right: 50px;
+    width: 400px;
+    height: 350px;
+}
+
+.information-box h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.information-box h2{
+    font-size: 40px;
+    color: #FE4E30;
+    margin-bottom: 15px;
+}
+
+.information-box p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.information-box i{
+    margin-right: 15px;
+}
+
+.information-box button{
+    padding: 15px;
+    background-color: #F7B731;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+.banner{
+    background-color: #FE4E30;
+    height: 250px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    color:white;
+    padding-left: 130px;
+}
+
+.banner .title-banner h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.banner .banner-count{
+    margin-top: 40px;
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner .banner-count p{
+    margin-right: 100px;    
+}
+
+.banner .banner-info{
+    display: flex;
+    font-size: 20px;
+}
+
+.banner .banner-info p{
+    margin-right: 100px;
+    
+}
+
+.banner-wrapper{
+    background-color: #F4F7FC;
+    padding-top: 100px;
+    padding-left:200px;
+    padding-bottom: 200px;
+}
+
+.banner-wrapper .content{
+    margin-top: 20px;
+    width: 900px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+  
